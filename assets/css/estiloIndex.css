@@ -1,0 +1,36 @@
+.imagen_jumbotron {
+  background-image: url(../img/rosario_fondo.jpg);
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  border-radius: 0;
+  margin-bottom: 0!important;
+}
+
+body {
+  background-color: rgb(13, 14, 13);
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.btn-botoncito1 {
+  background-color: #eaf371;
+}
+
+footer {
+  background: #ff086b;
+  background: linear-gradient(to bottom, #180922, #ff086b); 
+}
+
+@media (min-width: 320px) and (max-width: 475px) {
+  .imagen_jumbotron {
+    background-size: auto auto; 
+  } 
+  
+  .display-3 {
+    font-size: 58px;
+  }
+}

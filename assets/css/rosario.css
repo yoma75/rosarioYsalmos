@@ -1,0 +1,78 @@
+body {
+  background-color: #180922;
+}
+
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #E9337D;
+  font-size: 42px;
+}
+
+h3, h4 {
+  font-family: 'Fredericka the Great', cursive;
+  color: rgb(251, 253, 127);
+}
+
+h4 a {
+  text-decoration: underline;
+}
+
+h4 a:hover, ul li a:hover{
+  color: rgb(251, 253, 127);
+}
+
+p, ul {
+  font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
+  font-size: 19px;
+}
+
+small {
+  font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
+}
+
+ul, a {
+  color: aliceblue;
+}
+
+/* fondo de la tarjeta */
+.card, .card-text {
+  background-color: #0f0911;
+  color: aliceblue;
+}
+
+.card-title {
+  font-size: 23px;
+}
+
+.card-footer {
+  background-color: white;
+}
+
+img {
+  height: 400px;
+  object-fit: cover;
+}
+
+footer {
+  background: #c31432;
+  background: linear-gradient(to bottom, #180922, #c31432); 
+}
+
+.letani li {
+  font-size: 19px;
+}
+
+.letani span {
+  color: rgb(251, 253, 127);
+}
+
+/* --------------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .media1 {
+    margin-top: 4px!important;
+  }
+}
